@@ -1,0 +1,72 @@
+
+.identificacao {
+    border: solid 5px #6CCAFA;
+    position: relative;
+    display: inline-block;
+    margin: 10px auto 10px;
+}
+
+.dados {
+    background-color: #5FD4DE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    width: 600px;
+    height: 300px;
+    border: solid 5px #76F5DB;
+    padding: 10px 50px 10px;
+    margin: 10px auto 10px;
+}
+
+span {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.personalidade {
+    display: flex;
+    border: solid 2px #6CFA8D;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+.personalidade-itens {
+    border: solid 5px #6CFA8D;
+    flex-grow: 1;
+    background-color: #5FD4DE;
+}
+
+.personalidade-itens:nth-child(3) {
+    order: -1;
+    background-color: #6CCAFA;
+}
+
+.qualificacao {
+    display: flex;
+    border: solid 10px #6CFA8D;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+.qualificacao-itens {
+    border: solid 5px #5FDEA1;
+    flex-grow: 1;
+    background-color: #76F5DB;
+}
+
+.qualificacao-itens:nth-child(3) {
+    background-color: #5FD4DE;
+    font-size: 1.5em;
+}
+
+.lista-projetos {
+    font-size: 1em;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
